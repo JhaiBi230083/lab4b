@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Paragraph Content</title>
+  <script>
+    function changeText() {
+      // Get the paragraph element inside the div with id "myElement"
+      const paragraph = document.querySelector('#myElement p');
+      // Change its text content
+      paragraph.textContent = "Hello there!";
+    }
+  </script>
+</head>
+<body>
+
+<div id="myElement"> 
+  <p>Welcome to my website!</p> 
+</div>
+
+<!-- Button to trigger the change -->
+<button onclick="changeText()">Change Text</button>
+
+</body>
+</html>
